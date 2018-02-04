@@ -6,6 +6,7 @@
 * Insertion Sort
 * Divide and Conquer Search
 * * Merge Sort
+* In-order, Pre-order and Post-order tree traversal
 
 ## Модель RAM
 
