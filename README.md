@@ -9,6 +9,8 @@
   * Queue
   * Graph
   * Linked List
+  * Tree
+  * Binary Search Tree
 * Bubble Sort
 * Insertion Sort
 * Divide and Conquer Search
