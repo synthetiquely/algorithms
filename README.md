@@ -7,6 +7,8 @@
   * Hash Table
   * Stack
   * Queue
+  * Graph
+  * Linked List
 * Bubble Sort
 * Insertion Sort
 * Divide and Conquer Search
