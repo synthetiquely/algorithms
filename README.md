@@ -5,6 +5,7 @@
 * Data Sctructures
   * List
   * Hash Table
+  * Stack
 * Bubble Sort
 * Insertion Sort
 * Divide and Conquer Search
