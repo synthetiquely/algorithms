@@ -2,10 +2,13 @@
 
 ## Содержание
 
+* Data Sctructures
+  * List
+  * Hash Table
 * Bubble Sort
 * Insertion Sort
 * Divide and Conquer Search
-* * Merge Sort
+  * Merge Sort
 * In-order, Pre-order and Post-order tree traversal
 
 ## Модель RAM

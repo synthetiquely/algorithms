@@ -8,6 +8,7 @@ class List {
    * Получить доступ к значению по адрессу в памяти
    * Сложность O(1)
    * @param {number} address
+   * @returns {any} value
    */
   get(address) {
     return this.memory[address];
