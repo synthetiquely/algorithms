@@ -1,42 +1,42 @@
-export default class Stack {
+export default class Queue {
   constructor() {
     this.list = [];
     this.length = 0;
   }
 
   /**
-   * Добавить значение в конец стэка
+   * Добавить значение в конец очереди
    * Сложность O(1)
    *
    * @param {any} value
    */
-  push(value) {
+  enqueue(value) {
     this.length++;
     this.list.push(value);
   }
 
   /**
-   * Удалить значение из конца стэка
-   * Сложность O(1)
+   * Удалить значение из начала очереди
+   * Сложность O(n)
    *
    * @returns {any} value
    */
-  pop() {
+  dequeue() {
     if (this.length === 0) {
       return;
     }
 
     this.length--;
-    return this.list.pop();
+    return this.list.shift();
   }
 
   /**
-   * Посмотреть текущий элемент на верхушке стэка
+   * Посмотреть текущий элемент в начале очереди
    * Сложность O(1)
    *
    * @returns {any} value
    */
   peek() {
-    return this.list[this.length - 1];
+    return this.list[0];
   }
 }

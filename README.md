@@ -6,6 +6,7 @@
   * List
   * Hash Table
   * Stack
+  * Queue
 * Bubble Sort
 * Insertion Sort
 * Divide and Conquer Search
