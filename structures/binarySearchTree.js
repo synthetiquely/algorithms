@@ -25,6 +25,10 @@ export default class BinarySearchTree {
     return false;
   }
 
+  /**
+   * Добавить значение в дерево
+   * @param {any} value
+   */
   add(value) {
     const node = {
       value,

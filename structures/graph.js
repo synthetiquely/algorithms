@@ -24,7 +24,7 @@ export default class Graph {
    * @returns {{value: any, lines: any[]}} node
    */
   find(value) {
-    return this.nodes.find(node => node.value === value);
+    return this.nodes.find((node) => node.value === value);
   }
 
   /**
