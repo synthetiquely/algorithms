@@ -13,8 +13,9 @@
   * Binary Search Tree
 * Bubble Sort
 * Insertion Sort
-* Divide and Conquer Search
+* Divide and Conquer Strategy
   * Merge Sort
+  * Quicksort
 * In-order, Pre-order and Post-order tree traversal
 
 ## Модель RAM
