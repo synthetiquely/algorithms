@@ -1,7 +1,7 @@
 /**
  * Quick sorting. O(n log(n))
- * @param {any} arr
- * @returns sorted array
+ * @param {Array<any>} arr
+ * @returns {Array<any>} sorted array
  */
 
 const quicksort = arr => {
