@@ -1,4 +1,28 @@
-export default class BinarySearchTree {
+module.exports = class BinarySearchTree {
+  /**
+   *   Complexity: O(n)
+   * @param {{ value: number, left: Node, right: Node }} root
+   * @param {number} lowerBoundary
+   * @param {number} greaterBoundary
+   * @returns {boolean}
+   */
+  static validateBinarySearchTree(root, lowerBoundary, greaterBoundary) {
+    if (!root) {
+      return true;
+    }
+
+    if (
+      root.value > lowerBoundary &&
+      root.value < greaterBoundary &&
+      this.validateBinarySearchTree(root.left, lowerBoundary, root.value) &&
+      this.validateBinarySearchTree(root.right, root.value, greaterBoundary)
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   constructor() {
     this.root = null;
   }
@@ -33,7 +57,7 @@ export default class BinarySearchTree {
     const node = {
       value,
       left: null,
-      right: null,
+      right: null
     };
 
     if (this.root === null) {
@@ -62,4 +86,4 @@ export default class BinarySearchTree {
       }
     }
   }
-}
+};
