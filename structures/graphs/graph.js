@@ -1,4 +1,4 @@
-export default class Graph {
+module.exports = class Graph {
   constructor() {
     this.nodes = [];
   }
@@ -12,7 +12,7 @@ export default class Graph {
   addNode(value) {
     this.nodes.push({
       value,
-      lines: [],
+      lines: []
     });
   }
 
@@ -24,7 +24,7 @@ export default class Graph {
    * @returns {{value: any, lines: any[]}} node
    */
   find(value) {
-    return this.nodes.find((node) => node.value === value);
+    return this.nodes.find(node => node.value === value);
   }
 
   /**
@@ -43,4 +43,4 @@ export default class Graph {
     }
     startNode.lines.push(endNode);
   }
-}
+};
